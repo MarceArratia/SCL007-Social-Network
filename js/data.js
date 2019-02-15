@@ -1,4 +1,3 @@
-//import {stateChanged} from './mainMolu.js';
 //Para trabajar el DOM//
 // console.log("Hola")
 window.onload = initialize;
@@ -53,7 +52,8 @@ function login(){
 function initialize(){
     initializeFirebase();
     showMessageFromFirebase();
-   //stateChanged();
+
+
 }
 document.getElementById("sendMessage").addEventListener("click",sendDataToFirebase)
 //mostrando mensaje de base de datos, ref=referencia
@@ -437,6 +437,7 @@ function wallVisible(){
     document.getElementById("userWallPerfil").style.display="none";
     document.getElementById("userWall").style.display="block";
 }
+
 document.getElementById("recetasVeg").addEventListener("click",recetaVisible);
 function recetaVisible(){
    document.getElementById("userWallPerfil").style.display="none";
@@ -447,6 +448,7 @@ function recetaInVisible(){
     document.getElementById("userWallPerfil").style.display="block";
     document.getElementById("recetas").style.display="none";
 }
+
  //Parámetros para conexión de base de datos
 function initializeFirebase(){
   // Initialize Firebase
