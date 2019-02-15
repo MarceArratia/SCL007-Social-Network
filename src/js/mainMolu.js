@@ -134,13 +134,5 @@ function registerDiv(){
     document.getElementById("userRegister").style.display = "block";
 }
 
-  
-let saveUserDatabase = "";
- const saveUser = (email, uid) => {   
-    firebase.database().ref(`users/${uid}`).set({
-     email : email,
-     id : uid,
-    });
-};
 
 
