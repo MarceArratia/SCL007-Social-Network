@@ -72,5 +72,5 @@ function totalCalories(){
     document.getElementById("total").innerHTML= sumTotalFruit+sumTotalVegetables+sumTotalWhiteCereals+sumTotalHighCereals+sumTotalBread+sumTotalMoldBread+sumTotalPotatoes
     +sumTotalDriedFruitsSeeds+sumTotalDriedFruits+sumTotalAvocado+sumTotalOils+sumTotalMilk+sumTotalSoyDrink+sumTotalSoyYogurt+sumTotalSoyMeat+sumTotalSoyBurger+sumTotalTofu + " Calorías";
 
-    //a document falta la suma de todos los alimentos despues de la fruta
+   
 }
