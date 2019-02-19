@@ -20,6 +20,7 @@
         width: 120px;
         height: 120px;
         border-radius: 90px;
+        margin-left: 15%;
     }
     .inputlogin{
         width: 20%;
@@ -31,6 +32,13 @@
         height: 100%;
         color: black;
         border-radius: 12px;
+        margin-left: 30%;
+    } 
+    .inputloginPerfilTable{
+        height: 100%;
+        color: black;
+        border-radius: 12px;
+        margin-left: 60%;
     } 
     .inputUserLogin{
         width: 60%;
@@ -62,7 +70,7 @@
         text-align: left;
         font-size: medium;
         margin-left: 4%;
-        margin-top: 4%;
+        margin-top: 1%;
     }
     .aMuro{
         text-align: center;
@@ -76,8 +84,12 @@
         width: 15pxx;
     }
     .imgEdit{
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
+        margin-left: 10%;
+    }
+    .imgMessageUsers{
+        margin-left: 9%;
     }
     .divHeaderMuro{
         background-color: #FFFFFF;
@@ -180,6 +192,7 @@
         width: 120px;
         height: 120px;
         border-radius: 90px;
+        margin-left: 20%;
     }
     .inputlogin{
         width: 20%;
