@@ -1,3 +1,4 @@
+
 // Se declara función para registrar usuarios//
 document.getElementById("signIn").addEventListener("click", signIn)
 function signIn(){
@@ -132,17 +133,6 @@ function registerDiv(){
     document.getElementById("userLogin").style.display = "none";
     document.getElementById("userRegister").style.display = "block";
 }
-document.getElementById("login").addEventListener("click", showNavbar);
-function showNavbar(){
-    document.getElementById("navInicio1").style.display = "block";
-}
 
-let saveUserDatabase = "";
-const saveUser = (email, uid) => {
-   firebase.database().ref(`users/${uid}`).set({
-    email : email,
-    id : uid,
-   });
-}
 
 
