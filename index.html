@@ -96,9 +96,11 @@
       }
     }
     </script>
-<div id="perfilUser" class="buttonUsers" style="display :none"><li><button id="callPerfil">Perfil Usuario</button></li></div> 
-</ul>
-</div>
+    <p></p>
+    <p></p>
+<div id="perfilUser" class="buttonUsers" style="display :none"><li><button id="callPerfil" class="inputloginPerfil">Perfil Usuario</button></li></div> 
+
+
 <div id="userLogin" style="display: block" class="divlogin"><!--se crea para mostrar el login-->
  <h2>Ingreso de Usuarios</h2><p></p>
  <input id="email2" type="email" placeholder="Ingresa email" class="inputUserLogin"><p></p>
@@ -192,7 +194,7 @@
         <input type="button" class="inputloginPerfil" id="returnWall" value="Volver">
     </div>
     <div class="divPerfilAjustWall">
-        <h5>Editar perfil         <img src="imagenes/edit.jpeg" id="edit" class="imgEdit" ></h5>
+        <h4>Editar perfil<img src="imagenes/edit.jpeg" id="edit" class="imgEdit" ></h4>
     </div>
     <div class="divPerfilAjust">
         <img id="imagenPerfil" class="imgResponsive"><p></p> 
@@ -200,7 +202,7 @@
     <div class="divPerfilAjust">
         <form id="formMessagePerfil" class="divHeaderModal"><p></p>
              <label id="namePerfil"></label><p></p>
-            <textarea name="mensaje" id="mensajePerfil" class="imgMessageUsers" placeholder="Comenta" ></textarea><p></p>
+            <textarea name="mensaje" id="mensajePerfil" cols="" rows="" placeholder="Comenta" ></textarea><p></p>
             <input type="button" name="" id="sendMessagePerfil" value="Enviar Comentario" class="inputloginPerfil">
           </form><p></p>
     </div>
@@ -210,7 +212,8 @@
   <div>
     <div>
       <!--boton tabla nutricional-->
-      <input type="button" class="inputloginPerfilTable" id="tableNut" value="Tabla Nutricional">
+      <input type="button" class="inputloginPerfil" id="tableNut" value="Tabla Nutricional">
+      <input type="button" class="inputloginPerfil" id="recetasVeg"  value="Recetas">
     </div>
     <div></div>
   </div>
@@ -230,7 +233,7 @@
 
 <div id="recetas" style="display:none">
  <div class="recetasEstilo">
-  <input type="button" class="inputloginPerfil" id="recetasVeg" value="Volver">
+  <input type="button" class="inputloginPerfil" id="returnButton" value="Volver">
     <h2>¡Sube tu Receta!</h2>
 
     <form id="enter-login" class="container-fluid2">
